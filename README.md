@@ -1,11 +1,11 @@
-Reflect
+#Reflect
 
-C++ Reflection Library
+###C++ Reflection Library
 
 Copyright 2013 John Farrier, Hellebore Consulting LLC
-
 Apache 2.0 License
 
-Data reflection header-only library for C++.
+##Overview
 
+Data reflection header-only library for C++.
 Supports google test unit testing framework.
