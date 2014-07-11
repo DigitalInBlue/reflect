@@ -65,7 +65,7 @@ class Reflect
 				virtual void bind(void*) { }
 				virtual void* get() const { return nullptr; }
 				virtual const std::type_info& type() const { return typeid(TypeBase); }
-				virtual bool operator<(const TypeBase&) const { return false; }
+				virtual bool operator<(const TypeBase& other) const { return false; }
 		};
 
 	public:
